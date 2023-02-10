@@ -2,7 +2,7 @@ import requests
 
 class LoginAPI:
     def __init__(self) -> None:
-        self.BASE_URL = "https://e-sms.dialog.lk/api/v1/login"
+        self.BASE_URL = "https://selfcare.dialog.lk/"
 
         self.session = requests.Session()
         self.req_headers = {
